@@ -1,0 +1,4836 @@
+{
+ "version": 1,
+ "patch_layer": [
+  {
+   "name": "master_gui_eng.stringlookup",
+   "hash": "1f79a85c",
+   "orig_md5": "c9f223ea4e95adec7768b945f56c8b74",
+   "new_md5": "9355e786f1d15601cc715b91c847e207",
+   "entries": 10618
+  },
+  {
+   "name": "facialanims_eng.stringlookup",
+   "hash": "259c84ba",
+   "orig_md5": "bace4fe70920b9d255eb592f92ce745a",
+   "new_md5": "281b2d51e294ce9cdab51330aa9d8678",
+   "entries": 3024
+  },
+  {
+   "name": "sound_global_eng.stringlookup",
+   "hash": "e96f1d79",
+   "orig_md5": "7e8965f7972f6f41c83b9ebd41dd62c1",
+   "new_md5": "c8f200e4f61093f7ad18c787a68405d8",
+   "entries": 60
+  },
+  {
+   "name": "mm1034.logic_eng.stringlookup",
+   "hash": "641c9448",
+   "orig_md5": "556dd32580829a4406c9ac4481d6c508",
+   "new_md5": "d971adaa25ee738d5479aaa52c20b5b2",
+   "entries": 34
+  },
+  {
+   "name": "mm1039.mission_starter_eng.stringlookup",
+   "hash": "a361595f",
+   "orig_md5": "338ca5fa20a941247e49acb5df237a88",
+   "new_md5": "6de3c60059af46e043af0be622beeda9",
+   "entries": 2
+  },
+  {
+   "name": "sm_gutgash_01_mission_starter_eng.stringlookup",
+   "hash": "f6828ac9",
+   "orig_md5": "03a8fb8a88ea073488861827dce15126",
+   "new_md5": "912e0f0a3953628b5f307037126d5ba5",
+   "entries": 2
+  },
+  {
+   "name": "sm_gutgash_02_obj03_eng.stringlookup",
+   "hash": "49eaa4e5",
+   "orig_md5": "461c1510f347ab87058544b8fffe1785",
+   "new_md5": "2cf1a1d8ecd0105b5445bf1a49ee9ba4",
+   "entries": 13
+  },
+  {
+   "name": "conditional_dialog_eng.stringlookup",
+   "hash": "7cf26b32",
+   "orig_md5": "b4baa2d0a612dc074a1f9ce0705e3464",
+   "new_md5": "808b52daac3fe29659053db65fb56538",
+   "entries": 2935
+  }
+ ],
+ "sarcs": [
+  {
+   "archive": "game8",
+   "hash": "00936fee",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4020_obj01_eng.stringlookup",
+     "orig_md5": "0e2b6635c2af9629f03a9a54f2091e0a",
+     "new_md5": "967148015b2df4c4c44649be61e3a321",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "00a5f73e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_01_obj_01_eng.stringlookup",
+     "orig_md5": "f185fe5a252caf3fd8f24c4f6d397707",
+     "new_md5": "c653e20ed076e622b77c32f382d782e1",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "00fc9d52",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1040.ogc_ruins_eng.stringlookup",
+     "orig_md5": "edb66761a9807e8cb31cf66c7390a816",
+     "new_md5": "5537ac67d2c9b86b041aee7808b9c55b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "0165e0be",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3030_obj01_enemies_eng.stringlookup",
+     "orig_md5": "ea2839c070752efeb573a40d73467f48",
+     "new_md5": "192c97d84d607094c9f960dd4c6e008a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "02dd3676",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_03_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "c780c4862c3464fb67c55b00bb29411a",
+     "new_md5": "3ab9d492780e390adc83f2546f59f94f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "03108bbf",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1034.logic_eng.stringlookup",
+     "orig_md5": "ad0f2ce702bb65b457cda93bb5ecf6d8",
+     "new_md5": "d971adaa25ee738d5479aaa52c20b5b2",
+     "patch_layer": true
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "040b62bc",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv3055_eng.stringlookup",
+     "orig_md5": "881b3b17f9c108d2ff900e75c1c644c5",
+     "new_md5": "f6b7d45b9574e5fa2434b21e528d09d0",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "04af4135",
+   "chunked": true,
+   "files": [
+    {
+     "name": "mm3030_cs040_eng.stringlookup",
+     "orig_md5": "ef8f3236c2358d9bb4603ffa9f93105c",
+     "new_md5": "29e2e5e5afc6eb14f6b6b9467a6b4d58",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "05524bd9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_deathrun_gutgash04_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "0555b09f",
+   "chunked": true,
+   "files": [
+    {
+     "name": "mm2030_cs040_eng.stringlookup",
+     "orig_md5": "c41fc9182348ab6e5cd3ee23782a7c6d",
+     "new_md5": "771dd30863375dbef35d9e39253c614e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "05d45133",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5010_obj01_eng.stringlookup",
+     "orig_md5": "deb50659d3c1ef81a0574b5798468a44",
+     "new_md5": "4e0f8cca585f703646b0ad7bfe5aa46b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "06cbd8f8",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd1030_eng.stringlookup",
+     "orig_md5": "da31bba31635db8ef969a605595991f9",
+     "new_md5": "ce85d215222d1c153e162b34ac6aa38d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "0724e12c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_deathrun_jeet00_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "086b48f8",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_dbp_pier_outpost_eng.stringlookup",
+     "orig_md5": "4086184ae595cdbc9b5e62d08b66d8d1",
+     "new_md5": "a93f633aed65cb7e03927e4bdb367d4a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "092902ca",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel_g_convoy_eng.stringlookup",
+     "orig_md5": "a0f5361fb8cde3a745d53629b244a091",
+     "new_md5": "c480f849bec266af0fbcabc216f57c6c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "09faa184",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_deathrun_gutgash02_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "0bcf5931",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd1190_eng.stringlookup",
+     "orig_md5": "d5f978ffd04c4446da450b14f8fbe562",
+     "new_md5": "d3acbc8011fd3e7071a3b838f1ab7e5f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "0bfbec77",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3010_cs080_eng.stringlookup",
+     "orig_md5": "20c56600a1e8a32b46b71d23c3dad02e",
+     "new_md5": "bfb54860bab214c8a940eff0231e08ec",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "0c366713",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet02_02_logic_eng.stringlookup",
+     "orig_md5": "a34b2593d22d173da3b0953ae129e4dd",
+     "new_md5": "1afc0420b2b96d0d17f758f433b552e2",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "0ce72606",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_02_obj05_eng.stringlookup",
+     "orig_md5": "48e807e79541064df0c5fb52bf591640",
+     "new_md5": "26b258c64224d22e87367ad35e624479",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "0d39dbaa",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd2060_eng.stringlookup",
+     "orig_md5": "92d511b2cc3ebdb5838bfa50cac624fb",
+     "new_md5": "4c7712458af12d2c3942f4e5f431ac89",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "0e15d912",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1038.free_roam_logic_eng.stringlookup",
+     "orig_md5": "526a915251384fcedfc4f4f20f6764cb",
+     "new_md5": "4b7639ae5e156b35451afe82637653ff",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "0e179e98",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2010_cs040_eng.stringlookup",
+     "orig_md5": "9b30bcfa07f9e5aff73333794fafa39e",
+     "new_md5": "c771ee9992eb3f3f7f3da5bf95a42fa8",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "0e9e0f6d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelfd1080_eng.stringlookup",
+     "orig_md5": "5af221b0420ceb968cd5f3e63da1bbd7",
+     "new_md5": "66201a4e0263f6b1f4eb40eaa25c66e8",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "0efd4871",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_hope_mission_started_dialogue_02_eng.stringlookup",
+     "orig_md5": "04590566d7a1047fd7780715a808a50f",
+     "new_md5": "48b1a3cb6672cb5c07a2069341009897",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "0f583b07",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1030_cs030_eng.stringlookup",
+     "orig_md5": "9197d9483459fdbb08b4ae060f219a55",
+     "new_md5": "02bbe4a88be8459e0c1d3e0226def015",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "104c0552",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3020_obj02_eng.stringlookup",
+     "orig_md5": "7f408c26a9410edd9c4ab9e599b6109f",
+     "new_md5": "0302b05e2b2567b8c5c85999663e7fee",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "10c6ea2f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1021.logic_eng.stringlookup",
+     "orig_md5": "ac6708c0c427734ca70a67f19daedb92",
+     "new_md5": "93ec6f2004cf78ac643494e97907ad38",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "117da601",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_deathrun_pinkeye04_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "11e7ceb3",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_deathrun_pinkeye02_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "121411ce",
+   "chunked": true,
+   "files": [
+    {
+     "name": "mm1012.logic_eng.stringlookup",
+     "orig_md5": "cb82e945ecb1020bea3e9ff30af0b188",
+     "new_md5": "b85ec8491fe07674ab819d2f49d4d8a5",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "1262b31a",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a05_loot_airport_02_logic_eng.stringlookup",
+     "orig_md5": "8a29a32939e27083d6959fc4abad0b83",
+     "new_md5": "3a8cfc55c69b6973a1a7b47f0d24f3c7",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "126d236d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel0079_eng.stringlookup",
+     "orig_md5": "181575c26ebdf2dc0cdab6785100ba5f",
+     "new_md5": "c74d04f5ca2553d203364bd67ad6424e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "12f31f62",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_deathrun_jeet04_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "147f800f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_02_obj04_eng.stringlookup",
+     "orig_md5": "b9901e97ba0be447dd8caddaa8eb599c",
+     "new_md5": "b9f72d236986c03292d218eda63fdaae",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "154b92cd",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2040_cs010_p4_eng.stringlookup",
+     "orig_md5": "fdbee1355075a1edf6550ac3a76eede6",
+     "new_md5": "c83510133869029b3c13fcb6695f842a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "15545e2a",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel0083_eng.stringlookup",
+     "orig_md5": "25f2e8791c5c08421612c4dee9ba8f19",
+     "new_md5": "a01e3015e635e1ec3064c7f18507b488",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "15b8f10d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel0077_eng.stringlookup",
+     "orig_md5": "ab532d6b880019f78cadee720e045a08",
+     "new_md5": "f13a2ad9f37aa3c132601ed342ddda14",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "160cbb58",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_deathrun_initial_cs_eng.stringlookup",
+     "orig_md5": "207f3479e34d8f44a86f4d64f57b8cb6",
+     "new_md5": "54bac408bafd036b01ad28b0984ff8ce",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "165cbdda",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sto5042_eng.stringlookup",
+     "orig_md5": "b13da6cdd3962fea6467dccc7bf2e9b6",
+     "new_md5": "8e297d550686ce2b22361a0ca2a27b9e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "1705842f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1039.free_roam_logic_eng.stringlookup",
+     "orig_md5": "1ce2df9886cfaa178a035bdd37452854",
+     "new_md5": "d15d420e76bc8f1af5ac1e8ffef4332b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "176baa59",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2012.mission_starter_eng.stringlookup",
+     "orig_md5": "21e6f629c121ba611529e786cedd95de",
+     "new_md5": "be851a6084eef17860e468f87ce28740",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "178bfe23",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_01_obj03_eng.stringlookup",
+     "orig_md5": "4bf44969ae9f8db339995b829b33ad1d",
+     "new_md5": "4383a78abe1c405721a50f889f1b066b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "186a7475",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4010_obj01_eng.stringlookup",
+     "orig_md5": "6597111a0fad51ec9d90a04752cb1c30",
+     "new_md5": "1060c5b3f1b96f154253ef42580f45cd",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "18798aa7",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel0087_eng.stringlookup",
+     "orig_md5": "3cae61ce376034a012a051d860a8c2f3",
+     "new_md5": "2b3f19397d6aefe98f935fedbf7c70a7",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "187dc8d5",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_01_eng.stringlookup",
+     "orig_md5": "a4b27be2d15db0fb9b47a0a8680a5a58",
+     "new_md5": "8bf381141ee7530b2b29f69d9d0f1760",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "1a0fb0db",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_pinkeye_mission_started_dialogue_eng.stringlookup",
+     "orig_md5": "623df48c2113431ffa4d07fe9ea53d52",
+     "new_md5": "575c6eaa96239a306563aa55801efc22",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "1a320815",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3010_mission_starter_eng.stringlookup",
+     "orig_md5": "118f62eb77cfa4a91bc1b67616f566b2",
+     "new_md5": "4c3b54cab6244e2efa967f68edbc9e7b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "1b5b724c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_gen02_eng.stringlookup",
+     "orig_md5": "07df4a7f8f9025bd5e88570ece3a836f",
+     "new_md5": "e3b7bb1847e84838e7017e79878914d8",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "1c1e4781",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3010_obj05_eng.stringlookup",
+     "orig_md5": "9aca893aa938182bd99da25d54c31cfd",
+     "new_md5": "ce0749f4948b9a92d30e7482502050ff",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "1cb205ea",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1034_animscene_projects_eng.stringlookup",
+     "orig_md5": "06adfe08f7c834fc053507279ab7d961",
+     "new_md5": "37fc087a5dbfabbf7c32b1e5e0eeb78d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "1e3e8a4b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelfo2020_eng.stringlookup",
+     "orig_md5": "170916307217f38e7413c9d4fbad38a9",
+     "new_md5": "9aba06f17cd5f2f1952271ae232b816e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "1ee9a1fa",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv5069_eng.stringlookup",
+     "orig_md5": "8f30a44c08bdff2e21a4264a7fc321a3",
+     "new_md5": "8a65c3e6d2305190c7695c0146624480",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "1ef237a4",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm7020_obj01_eng.stringlookup",
+     "orig_md5": "5e631a89d4a40b2b95f29e99c804861b",
+     "new_md5": "3eb22721b78a8205239e897390018802",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "211aa492",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sto2037_eng.stringlookup",
+     "orig_md5": "42855a488b838e1793b02568e9cc1f14",
+     "new_md5": "e9023f737d5679ec74121e880817302b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "21598292",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd2020_eng.stringlookup",
+     "orig_md5": "5e0269af8cab6d1eaf36c4aeb2334316",
+     "new_md5": "582ea13fcaf554df9ef6fdd104804a7d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "227ea054",
+   "chunked": false,
+   "files": [
+    {
+     "name": "lto50_eng.stringlookup",
+     "orig_md5": "ec69650eb10bd0aea95787c91bfac044",
+     "new_md5": "8cdf9a8710fe7e8d9a6536cf1fa51d10",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "23306d35",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv2038_eng.stringlookup",
+     "orig_md5": "9b7a41361914166158ef2d92dca65035",
+     "new_md5": "b1ddd5be573eb8a30a5a4de84a97769f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "24cbb88c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4010_obj03_eng.stringlookup",
+     "orig_md5": "ab8c30f738693c747fa5946d66245cf8",
+     "new_md5": "a3a60fa15c1de97d638b24e96b90bec1",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "278acb92",
+   "chunked": false,
+   "files": [
+    {
+     "name": "lto10_eng.stringlookup",
+     "orig_md5": "255298ef424fdc8e3d7c54c451face3c",
+     "new_md5": "ea137dc4b375e960bd7b60869d16d03a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "27a2b1e1",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_hope_mission_started_dialogue_eng.stringlookup",
+     "orig_md5": "598e8eae494b7817f086ce7941356443",
+     "new_md5": "dfe79274ca86d46cb9b0ced5677d336d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "27b08d18",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1010_cs010_p7_eng.stringlookup",
+     "orig_md5": "01dd04ba72bf2d29fd1d9fd5568a8a09",
+     "new_md5": "608d1211f9277c36319d0750e9d789aa",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "27ca6089",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1012_cs060_eng.stringlookup",
+     "orig_md5": "ec37ad2dbb122502c08622aac2e8f8ff",
+     "new_md5": "0290c21392f7abef357f626d4d124de4",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game1",
+   "hash": "28c6a40e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "global_eng.stringlookup",
+     "orig_md5": "b9919a828ab873aafe154dc21320905a",
+     "new_md5": "329783f63d83be287c2d67dc9b8e3e5b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "292ea52b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv5061_eng.stringlookup",
+     "orig_md5": "345f9010ef27ce04b8ce39701c4e3dc4",
+     "new_md5": "ce9386120b614a693e84a5e3639a588c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "29333dca",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1040.free_roam_logic_eng.stringlookup",
+     "orig_md5": "b6ac3f6d66b750b305d9975433a5d05f",
+     "new_md5": "59fc06540e2fcb8cb2cccfd9677f9bf7",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "29ae7c44",
+   "chunked": false,
+   "files": [
+    {
+     "name": "ex1025.logic_eng.stringlookup",
+     "orig_md5": "39cc3ff35fce24d936578ad91b3040ed",
+     "new_md5": "74c2d8fbe6287612d4934f99b93883cf",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "29ecd54e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_enc2010_spawn_eng.stringlookup",
+     "orig_md5": "e8649695dcb30ac288fe93cc62a0b0a2",
+     "new_md5": "1d4a8d046ecb319fd4a384f7d26bfab3",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "2a8d347e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4010_mission_starter_02_eng.stringlookup",
+     "orig_md5": "2c35de3c1538f0a8718fac5dd165320d",
+     "new_md5": "dac743e0a656cf195a5403c85905a3ec",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "2b5fd341",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel1022_eng.stringlookup",
+     "orig_md5": "4c608cd98ad56e895f8565d030cf594f",
+     "new_md5": "b7cb6be7f7cf02ba01d6f4d26c762e20",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "2be6e326",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd1090_eng.stringlookup",
+     "orig_md5": "4084c1f6f11a40313ed2806f75ce755a",
+     "new_md5": "d5633a4fcd95d5886df11455ead09f61",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "2e56fc67",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash00_04_eng.stringlookup",
+     "orig_md5": "c578a0e9b0276433c491ccb326081a8d",
+     "new_md5": "e7386b6d6430a850992695c212c2b086",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "2e8aaa00",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3030_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "2a58071023b89e500601adf6a9bc7401",
+     "new_md5": "3a2331b455075b27dba9e64c2810f7e4",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "2f0f7dcc",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2030_cs030_eng.stringlookup",
+     "orig_md5": "b20917c4c530c3c51807d1716e884c97",
+     "new_md5": "3df8cf8d9e54dc278d4906f9ac5c5d07",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "2f1829c2",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3010_cs040_eng.stringlookup",
+     "orig_md5": "05afb1434627474aabc0070fe56dc81d",
+     "new_md5": "382ed35f1d5f782fa53af232742371c9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "2f1fdea0",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1040.mission_starter_eng.stringlookup",
+     "orig_md5": "74b27319e0cf271e53e11fd5819fc934",
+     "new_md5": "314a440568014f8996916ad41de84475",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "30007209",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet02_04_eng.stringlookup",
+     "orig_md5": "b63587161eccba1bd24daccd70cc9c92",
+     "new_md5": "92365cada70ffb1199da638a23a0d775",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "308ec20b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2020_cs020.cutscene_eng.stringlookup",
+     "orig_md5": "9ae1f95cccae622df06198fd8f6ba4d0",
+     "new_md5": "1c6c749c1355d335a5d22a39db4d6974",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "30f661ae",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_02_eng.stringlookup",
+     "orig_md5": "bca062b1e171f0e6129031b8cc66053e",
+     "new_md5": "253f43d8790138a60c33f61d063c3afc",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "316ac2a4",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4030_mission_starter_cs_alt_eng.stringlookup",
+     "orig_md5": "9e431e4a9b11968b3841af1599e055d9",
+     "new_md5": "152c0da311fa0d7568f002b56dade73c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "32af46cf",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_02_obj_01_eng.stringlookup",
+     "orig_md5": "5576fd22a5845da7706965dd12660d6f",
+     "new_md5": "c5af229124dc527660f9ffbbaa54c3ae",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "3467c489",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3020_mission_starter_eng.stringlookup",
+     "orig_md5": "53a4a4c97578e0f8b5f8e6db2fca9052",
+     "new_md5": "ce4193c518d5d644f7f1fa351108183f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "35af044a",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3010_cs005_eng.stringlookup",
+     "orig_md5": "ce4e44bef735816612c8ab056271c8ab",
+     "new_md5": "eb37054d4848e7f6336279fd938794cd",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "35c21b17",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3030_obj00_eng.stringlookup",
+     "orig_md5": "6994ae4ac110a96fecdab7a9540ead05",
+     "new_md5": "e842659bfc935ca5704e7696bbf862f5",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "361595e3",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_gen05_eng.stringlookup",
+     "orig_md5": "df505d524f5bae7d994260ad2bab446e",
+     "new_md5": "c449f5cc7de0acd0db2a785c722fdf3c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "3657c902",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5020_obj04_eng.stringlookup",
+     "orig_md5": "04c871d2b2bee97e2d603dfb86df119e",
+     "new_md5": "a8232ac7a86c63ee8db900be661b0b93",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "36586148",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv5063_eng.stringlookup",
+     "orig_md5": "1ab5701ab9ecebf541812637a3916aed",
+     "new_md5": "83553b5a06bfd99491418d932a95e8a9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "372ba3c3",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1036_con010_eng.stringlookup",
+     "orig_md5": "9ae01267a3409aac5ad5a231124d1ad9",
+     "new_md5": "026bc43b5c244601f054b3f7f8c193d3",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "37fa135c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5010_mission_starter_eng.stringlookup",
+     "orig_md5": "3eb63f391b785735655efff23cd2e2d6",
+     "new_md5": "1584d855ba5c468f9a8abcd6029f293e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "391c5df6",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_deathrun_jeet03_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "39209ed6",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_03_obj_01_eng.stringlookup",
+     "orig_md5": "197dbd3e979f97260830728c5bd03d60",
+     "new_md5": "3f06627e70be8ca4dcb896890f3043dc",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "39dae1d9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1012_cs050_eng.stringlookup",
+     "orig_md5": "a8c27e60506b5c39cad5cb73ee979607",
+     "new_md5": "08d8d47342e2994f78a771b16e00d26c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "3a1f60dd",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel3017_eng.stringlookup",
+     "orig_md5": "f3cde335ab62601e3903ab2d5a972634",
+     "new_md5": "4869ef037358d7f0532fc3744b72cd6e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "3a57de9f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd1210_eng.stringlookup",
+     "orig_md5": "039b8f3cd35185557dec54bf83163377",
+     "new_md5": "3df160d3684c7c2a6559e020cf9baa78",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "3aac4ed2",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet00_10_logic_eng.stringlookup",
+     "orig_md5": "5f39509a23082ec2addf710dbc96cd3c",
+     "new_md5": "fa45ea52205b8cf672d00540a24dd429",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "3b0799e5",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_04_eng.stringlookup",
+     "orig_md5": "508e2320280f6d1f436b1a7fd7b7b98e",
+     "new_md5": "78d71862ff3354eb5266716b19e1dc25",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "3b463c35",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_01_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "f310d1275405ff8b4149b2c8dbc28c23",
+     "new_md5": "e1f38d4408ca0c4ea4d73d242dc8f0c8",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "3b901876",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1039.mission_starter_eng.stringlookup",
+     "orig_md5": "a2e2b35baf2119bd2b323fc381b23568",
+     "new_md5": "6de3c60059af46e043af0be622beeda9",
+     "patch_layer": true
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "3c4a5454",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_gen04_eng.stringlookup",
+     "orig_md5": "b92c5f449c8fa68610ea333bf9ea06be",
+     "new_md5": "e1b3634bb5c94c41ac7260f6252f79e6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "3c5923fe",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_sm_gutgash_01_obj04_eng.stringlookup",
+     "orig_md5": "f3fcbef9ab709595bfbd55f66f5754d9",
+     "new_md5": "350547d5a57ee69c16f5b9403c0f929f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "3cf30b95",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm7020_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "391ff0d22b921a9c640e5748d79f3f31",
+     "new_md5": "df22b2141cc39c40bf597315e572d032",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "3e053f29",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3010_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "f80a0f255d673df20a4a5bf6dc6d24b3",
+     "new_md5": "bf59c6b95b3799c6f037dba77bbd6ed4",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "3fa3fff9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_deepfriah_mission_started_dialogue_eng.stringlookup",
+     "orig_md5": "91e39720437adb5d502984601bbd0c10",
+     "new_md5": "16ce7090167861164e4ed0fc47978ae5",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "402b6de5",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2050.logic_eng.stringlookup",
+     "orig_md5": "fb7178954f9e4da67a5ba69f451e61b2",
+     "new_md5": "500e8ac4b9c3944855e3d2e87dfeaaec",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "4100391f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet00_01_eng.stringlookup",
+     "orig_md5": "edc9550ba82b48c430feae61ea430890",
+     "new_md5": "a0f3e60aad2d5cf7fff98e2d98517cba",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "4154680f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_chum_01_obj01_eng.stringlookup",
+     "orig_md5": "1a46e5ad6bd3b813a3aff764e6251bc1",
+     "new_md5": "cd5dc78dd4eee46c021e6c2893fb63c0",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "41ab315e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_deathrun_jeet01_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "42ee8753",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4030_obj01_eng.stringlookup",
+     "orig_md5": "e2fe455d275915808045f77c5a21025f",
+     "new_md5": "bc1841d57afb6f1dbda1aa831e59a262",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "44fda282",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1040_cs020_eng.stringlookup",
+     "orig_md5": "bbb37ccaf0432eeb7aee3a2d456c1355",
+     "new_md5": "08a843075ce472ccd3f0b645ee330a6b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "454c897b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1010_cs010_p6_eng.stringlookup",
+     "orig_md5": "384512270acfd657be40e7113681fcb4",
+     "new_md5": "3fa810f7c4f2d06c0631dffda3c6153b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "45bd3c74",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_gen07_eng.stringlookup",
+     "orig_md5": "e6bb6bee91ff1d4418fc85ffb007d8ba",
+     "new_md5": "156d0c50b8507439ca92f516b621d69a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "4694ed2e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_sd1210_spawn_eng.stringlookup",
+     "orig_md5": "29ccf277a7ebbd94f43c31fdc5636b07",
+     "new_md5": "264430c5c2556d3709eb666be0a3691f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "47142724",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_01_obj02_eng.stringlookup",
+     "orig_md5": "41bf9fc818de7345350d702b2f49f072",
+     "new_md5": "5e9e95899bfccf9b1df5a96efea430b6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "4717037c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash04_05_eng.stringlookup",
+     "orig_md5": "920f6910ec5dd4913dd99ba16179d42d",
+     "new_md5": "634b39b1fa20b5397c593a4717b64df7",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "474f4b4c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2020.mission_starter_eng.stringlookup",
+     "orig_md5": "bd16737fc1d6d783ddafd9b03aab8877",
+     "new_md5": "abf58320f814da9c928bd77f441959fa",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "4773d3a7",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_08_eng.stringlookup",
+     "orig_md5": "3a16b6f9cd0eac78301ad56f1be009c9",
+     "new_md5": "2e0a7ee034c05975ed8490fb3e281fb2",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "477cf2fd",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3020_obj06_eng.stringlookup",
+     "orig_md5": "e10d64d3c5b2bc9db657d56bc96d225f",
+     "new_md5": "4390e46fc17e5a70b3022786da45e900",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "47b8cafe",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash02_01_logic_eng.stringlookup",
+     "orig_md5": "9d17fb32abc79330f9427aa898918b2d",
+     "new_md5": "e993af65d6e5418aca4545ce833ff558",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "47e8f1f9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_gen08_eng.stringlookup",
+     "orig_md5": "52ffbabe0a4b1ea19e81f085f346db4f",
+     "new_md5": "4875f33f8160403e18f3c6d27bb5875b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "486cd09a",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet02_05_logic_eng.stringlookup",
+     "orig_md5": "6b0ab74df0814dfb40c77794a487a0f0",
+     "new_md5": "2d9ae1c324511c2b10dcf4934b3d23f9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "4952adb1",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sto2025_eng.stringlookup",
+     "orig_md5": "dd3153ed3bdd83c17b065c0cce5f0536",
+     "new_md5": "f25013bb8d7a65fed9f458531b652e09",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "49dbb11e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_deathrun_gutgash01_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "4a15766c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv2026_eng.stringlookup",
+     "orig_md5": "a5f00ddf001aa024d70ec6032013874a",
+     "new_md5": "65afa1615a1d05722dff48d16d620072",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "4a69776b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3020_cs030_eng.stringlookup",
+     "orig_md5": "a88df3e530cfc17c5a432a73c511050b",
+     "new_md5": "a718519d2874fe249e1a4c1aadfa9ed4",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "4c09587c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_hope_02_mission_started_dialogue_01_eng.stringlookup",
+     "orig_md5": "98b8c5bb6fe4a2baaa7cdf1120beb2d5",
+     "new_md5": "aebb917ef79604935beba46a897adbfa",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "4cd59e5b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet01_05_logic_eng.stringlookup",
+     "orig_md5": "13d8c2dc23aea0623a45aec57df166b2",
+     "new_md5": "9612009a564b77558105769bee713141",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "4e3651b2",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1012_con010_eng.stringlookup",
+     "orig_md5": "35a9b48dd94dfc03aaa1f0c68bba171d",
+     "new_md5": "8dd486d5d3c9baa60c12b71865c11792",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "50909f62",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel5021_eng.stringlookup",
+     "orig_md5": "cb45d4fcb259a41da90525bddf3885ce",
+     "new_md5": "dbacce1037c9dc6bc1bd9c0332136e63",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "5113e50c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm7020_obj02_eng.stringlookup",
+     "orig_md5": "723d8ed3e1a85c75ed640b8f4abf027e",
+     "new_md5": "99c68ef673f9a8c80e9cb31338a8c6dd",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "53edc11b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2040_cs010_p1_eng.stringlookup",
+     "orig_md5": "00d91a2088ffe07fc88aa8a17eb705f8",
+     "new_md5": "61228910ede73fd565bc00539c33f7b9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "541ef517",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_pinkeye_02_mission_started_dialogue_eng.stringlookup",
+     "orig_md5": "317d5243eaff4fd01ac41f4f8549149a",
+     "new_md5": "d008e5b8b4bbada322f2b63108a69912",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "5437d2b4",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd2010_eng.stringlookup",
+     "orig_md5": "435e2815a587991709b3fef0827a7e78",
+     "new_md5": "79538275b87ae20aa293e8d2e8b25832",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "550a0712",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv3066_eng.stringlookup",
+     "orig_md5": "051f0b5cb48ae62b5a82320e3f9dde8e",
+     "new_md5": "e0c39fd2bfaf122ba67da6529616d819",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "561fb9c7",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_02_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "8f5eb750eb14c43542a271e191bc4847",
+     "new_md5": "0b962da3fde69b4f9173fc6def865754",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "56d59791",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_02_mission_starter_eng.stringlookup",
+     "orig_md5": "c6e3fb5788a3e149191928694ab93703",
+     "new_md5": "1cd09f2c28e0f476e10f75de2b62c348",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game1",
+   "hash": "574d216e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "conditional_dialog_eng.stringlookup",
+     "orig_md5": "d7e63df5ff0e0c1da642019eb2a222ff",
+     "new_md5": "808b52daac3fe29659053db65fb56538",
+     "patch_layer": true
+    },
+    {
+     "name": "sound_global_eng.stringlookup",
+     "orig_md5": "c641d6f5c55daa1d70f2dcc83b0c150b",
+     "new_md5": "c8f200e4f61093f7ad18c787a68405d8",
+     "patch_layer": true
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "5795d6dc",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash04_04_eng.stringlookup",
+     "orig_md5": "03bba94bea962a8f4bb66a2113e796de",
+     "new_md5": "2d4903bb4882f5f8918ec1a490de7bc7",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "57a82444",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv3058_eng.stringlookup",
+     "orig_md5": "641e76485d4c7bf0908f78223797f278",
+     "new_md5": "b29c7b29453072620782501e2bab180f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "57b78dff",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sto1031_eng.stringlookup",
+     "orig_md5": "3d39372a6db32ad97035a174376f5010",
+     "new_md5": "0029fa39f3b1796fd12d91fd269d337f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "595b9d5e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_kl_interceptor_camp.griffa_eng.stringlookup",
+     "orig_md5": "ae7f169a0f90200e2288b049a621f7d6",
+     "new_md5": "0aa5620c3b413e92bae02abae25ea3f6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "5a77ed64",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2020_cs010.cutscene_eng.stringlookup",
+     "orig_md5": "4a7f820b705d94d527bb436c18176c13",
+     "new_md5": "990b5e42a23950d5ca538989a63c4b76",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "5b38c820",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet00_11_logic_eng.stringlookup",
+     "orig_md5": "23a2a6375f8e77c4ad4a05f10454fe57",
+     "new_md5": "3e1a84dcb6ba0c97033916c0f6cf2045",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "5b42c30c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm6010_obj01_eng.stringlookup",
+     "orig_md5": "128bfd084fdc49f35afbf34a50cdcaa9",
+     "new_md5": "c2729427e320cb2660651cec830dcbdb",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "5bae7a11",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5010_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "d40429453c7f804480a387959deb65ae",
+     "new_md5": "4519f0139a3d4e7da7e6c762e5495a7d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "5d2fa9b5",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_02_obj_03_eng.stringlookup",
+     "orig_md5": "79ca5157bb3c09ca47ee3049d1884625",
+     "new_md5": "93ba9cffd231cd5a4a57b1ebe3efe972",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "5d489117",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel3005_eng.stringlookup",
+     "orig_md5": "2928112462ccabfbd2b1867485552101",
+     "new_md5": "11c2e1524a849e431a4a0623c54377a6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "5df02d97",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash04_12_logic_eng.stringlookup",
+     "orig_md5": "3d0565b1f02a2220dc9945de25206ece",
+     "new_md5": "c9209b6e96ddf5a9dd57b5b3d7039429",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "5ec7abe7",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet03_07_eng.stringlookup",
+     "orig_md5": "b11a562a5126e8c1664d6853775fa4b6",
+     "new_md5": "07c064b81e4fdcbf7398834c40ae17dd",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "5f630c20",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1010_cs010_p2_eng.stringlookup",
+     "orig_md5": "d30335894a12388e22db5259499def80",
+     "new_md5": "a07dbbc0340b93e27160bf5f3a7b7143",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "60695292",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelvv2020_eng.stringlookup",
+     "orig_md5": "e669c730a319b3b003f1de93610648d9",
+     "new_md5": "3dd425a7f6589fda221cce317b88bb0c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "60a9529b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1040_con010_eng.stringlookup",
+     "orig_md5": "c6ac392e2a8c1cbb3d2965aaf02b4e9a",
+     "new_md5": "badca27d3fd83d3f40eea60095bb1262",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "60d58dc0",
+   "chunked": false,
+   "files": [
+    {
+     "name": "lto30_eng.stringlookup",
+     "orig_md5": "75bba68252445b8a48e4b0707b9f3f3f",
+     "new_md5": "4c36a048324d3168113c1f3885ee711f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "61d3ae84",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3010_obj06_eng.stringlookup",
+     "orig_md5": "047e3dbcaaae5e736dcde6d6449d5e28",
+     "new_md5": "9966fd33115ef3f7f655a61573b3aa3b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "62f82a36",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1035_con020_eng.stringlookup",
+     "orig_md5": "f0f25d543e591048780f2eeee4d68b80",
+     "new_md5": "9eeb91b0d45a0cc329de8539903f6000",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "63ccc360",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5010_obj03_eng.stringlookup",
+     "orig_md5": "bb4e06f2c0b08f6b9e9e76730f3a128b",
+     "new_md5": "6f9419d24b87a5ae9bd8d2ef0467031d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "63f7a782",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sto1036_eng.stringlookup",
+     "orig_md5": "07a40d46b66d752a07101ba1e265e5df",
+     "new_md5": "97978992692a756ca90210ad7f24b5c9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "645190a5",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sto5029_eng.stringlookup",
+     "orig_md5": "dbeb89962627b5c6547e384196c5610f",
+     "new_md5": "d92751cb1b48625116df3cda0834a508",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "64bade90",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4010_obj02_eng.stringlookup",
+     "orig_md5": "5a04b0c5c2fbbcfb736f3711ea65da6e",
+     "new_md5": "b9a7104aa0f68a2a9da3133b306c77a0",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "64cfe25e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "lto20_eng.stringlookup",
+     "orig_md5": "17ee88c24f12b6bb6b6d94d99d849aa6",
+     "new_md5": "e5dea37d957e86a722d83c0c57af4f11",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "65b8d1fd",
+   "chunked": true,
+   "files": [
+    {
+     "name": "mm3030_cs050_eng.stringlookup",
+     "orig_md5": "f836c7455b20fa155c2560815d6730a3",
+     "new_md5": "ceacde1835e810a138cd8b93eecea934",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "671305e6",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_chum_01_obj04_eng.stringlookup",
+     "orig_md5": "c4800e1bc51089b5fc38b1b51a0dde83",
+     "new_md5": "202dedaccd2d1b8ac6e5e5c5e7f88349",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "67917cd1",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_generic_eng.stringlookup",
+     "orig_md5": "49614cfb4f0defbb9a85d9e5bda5503d",
+     "new_md5": "ea491321872b58e90678ef9e82abc3b6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "687df5c2",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelfd1050_eng.stringlookup",
+     "orig_md5": "6c5bb2459aeb6a236ad5f31091d8ea60",
+     "new_md5": "b1973d0f8292294e88e087276fdc6784",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "6e5dd022",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2040_cs010_p3_eng.stringlookup",
+     "orig_md5": "a75aa74c9d2cabcb720186ffc61615f9",
+     "new_md5": "44e29d6a34dbba13c82dbabdfe2747e5",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "6e6aa751",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_03_obj_02_eng.stringlookup",
+     "orig_md5": "9a57401b7f73b465c825b6f1abff8ed9",
+     "new_md5": "0f14ffc473943f69207b63676db8c19c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "6ec3f16e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_fd2040_gameplay_eng.stringlookup",
+     "orig_md5": "91228a043b78e1eea3064f0e1e9f1429",
+     "new_md5": "2d5a1ece8c5d19064096bf9fd30c7dd7",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "6f0e9adf",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_03_convoy_eng.stringlookup",
+     "orig_md5": "a89e341429c1decd72cf50c89e681617",
+     "new_md5": "909ff4141e455aaf89c2138e162be36f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "6f5407d0",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv2054_eng.stringlookup",
+     "orig_md5": "125ced3d08887d588e46fb30de40b141",
+     "new_md5": "f92d1a65c6237d864432be0a30c3a269",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "70813c47",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sto5041_eng.stringlookup",
+     "orig_md5": "3fcdcee87e9a5c9d8baa4481835a0676",
+     "new_md5": "b3899f68fe1eae1ae83e3cd0eb94bfc0",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "70a6fe03",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel1015_eng.stringlookup",
+     "orig_md5": "7a3d97359808f7714bebe851e17f6b74",
+     "new_md5": "35a1a94060adc8991afe21798a4b359d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "71fb8566",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_09_eng.stringlookup",
+     "orig_md5": "9249b43abecaacb88981c4747f0b2fb1",
+     "new_md5": "afa6b004827b0d6465b124b9859855c8",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "72e84ca6",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_03_mission_starter_eng.stringlookup",
+     "orig_md5": "3c1a5183e4314db42cd4cb24c1e6c8e0",
+     "new_md5": "cdb02e99257ad0427deae7257a6535e4",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "7395473d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1032.logic_eng.stringlookup",
+     "orig_md5": "74ae8f2a159156f2483b7e24ce33723c",
+     "new_md5": "bcdcc7e8d1a8df022c2f52ef42bdd01a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "73a37700",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4020_obj02_eng.stringlookup",
+     "orig_md5": "d3e9d649a4b63448c71cd0f21b8b949a",
+     "new_md5": "25766a86d7f1df9ddc4c588f53405383",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "74fd3d3b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3010_obj01_eng.stringlookup",
+     "orig_md5": "0bc9de1ca89191342087b267949a029c",
+     "new_md5": "cab90ca9d648b564ea79576d969dbe80",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "769546d5",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_generic_04_eng.stringlookup",
+     "orig_md5": "49614cfb4f0defbb9a85d9e5bda5503d",
+     "new_md5": "ea491321872b58e90678ef9e82abc3b6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "773382c9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_01_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "86070d3c2e2add02bbf7ca844aa8477c",
+     "new_md5": "8e94125bb5002f87aa361e0e668e2247",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "7766cf91",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1035_con060_eng.stringlookup",
+     "orig_md5": "df78f2a25fad720734fd64c7ece0a106",
+     "new_md5": "8126a3c0f14db691f3eb31b60c26be0d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "77919f02",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2050_cs030_eng.stringlookup",
+     "orig_md5": "79331d5a5572dae35f910dee637e680e",
+     "new_md5": "db246a77845b19793e337699a1df9495",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "7802cda9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_generic_02_eng.stringlookup",
+     "orig_md5": "49614cfb4f0defbb9a85d9e5bda5503d",
+     "new_md5": "ea491321872b58e90678ef9e82abc3b6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "7808e9af",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd1300_eng.stringlookup",
+     "orig_md5": "80fe8aa9344fa711818ff34e8aab8028",
+     "new_md5": "b1d9720992832feb2132a7493db144ee",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "78194e7a",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_03_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "628276f9b4898924f9f4049d4066f494",
+     "new_md5": "2847b93902da9acaedf8dae2849d6ec2",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "78d5a739",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3020.free_roam_logic_eng.stringlookup",
+     "orig_md5": "c260a16d2d82284f729fd4d8518a9643",
+     "new_md5": "138c67e80d3279dbf4c72270361a8aea",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "79a3a6e1",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1021_con020_eng.stringlookup",
+     "orig_md5": "739eb766ee6840c94f4f5ffb4f77914e",
+     "new_md5": "1c7a9cd08226328c2c5c3a8fc7570955",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "7be00e3a",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1038.mission_starter_eng.stringlookup",
+     "orig_md5": "c016a3c86d12fdf5dcbadc3c399408da",
+     "new_md5": "b80f4d5774e78a9ee3f1e92b42fdcabe",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "7c62ee82",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_deathrun_gutgash00_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "7ce21785",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1038.logic_eng.stringlookup",
+     "orig_md5": "19e09388f0ca89b770202e5398b0cf76",
+     "new_md5": "980940f1c9d2dc36b4bf3dc283092f63",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "7d123ded",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash00_06_eng.stringlookup",
+     "orig_md5": "65bffda6baf9997b1cc0186766536403",
+     "new_md5": "e9db6b2691ca55ed69d655579ab96e02",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "7e24e5d8",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1034_animscene_intro_eng.stringlookup",
+     "orig_md5": "7507b7984fa3925e115b4a0152f19bfd",
+     "new_md5": "49e4d741463a2b5dfd70bf6651a97859",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "7ed86835",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1020_cs010_eng.stringlookup",
+     "orig_md5": "d13bf7b42e306db14c6f3b1478173071",
+     "new_md5": "d2bb5242034de114c95fe3d2d7c36ea2",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "7f520679",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2020_con020_eng.stringlookup",
+     "orig_md5": "395e98bbe4c17649716338447fd67e97",
+     "new_md5": "de4fe8f8c1d342f851a69244d3ad7a01",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "7f6e9c12",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sto2024_eng.stringlookup",
+     "orig_md5": "1e67c0325a5ec5b45cc7a81300a5e814",
+     "new_md5": "96991e8bf72141660ddced3f2fccf300",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "8084c80c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelwc1050_eng.stringlookup",
+     "orig_md5": "01d92f84ade5444574d9a951b6ff2393",
+     "new_md5": "a6e98e203027e52e94fc6de9c7b75753",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "8084e6ee",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv3065_eng.stringlookup",
+     "orig_md5": "4b8ecaabb3a46a70f740c55b5759adfc",
+     "new_md5": "d36e2b33c5ad3c8ce6cf6ea55c238e0c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "80dd2bb4",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_hope_02_mission_started_dialogue_02_eng.stringlookup",
+     "orig_md5": "98b8c5bb6fe4a2baaa7cdf1120beb2d5",
+     "new_md5": "aebb917ef79604935beba46a897adbfa",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "81e05b7d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel0081_eng.stringlookup",
+     "orig_md5": "8abb4f3b1d61e565e53bd2b1907ac220",
+     "new_md5": "509ffd7d2c89d08baf014df792eaa680",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "82a4bc9d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_05_eng.stringlookup",
+     "orig_md5": "d9c1bc22df046858b866587a483cde89",
+     "new_md5": "24348344e50359704432f19c32fd9c89",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "84dbfe14",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_deathrun_pinkeye00_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "852cf917",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet03_05_logic_eng.stringlookup",
+     "orig_md5": "679a693a9b3ddcb229967997fd7cd147",
+     "new_md5": "546e266f389b4fbd0fb6a8f0de029c0c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "86b23299",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sto3027_eng.stringlookup",
+     "orig_md5": "dbd53f67a639381d1940c90acc9cf483",
+     "new_md5": "1963286ec31bfed1e479b7636cc31b18",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "87a7cf62",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_03_mission_starter_eng.stringlookup",
+     "orig_md5": "2d6b1957eb9e049445bf31df4092db89",
+     "new_md5": "c40fa94ebff22f82ff9a542e1c840bb1",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "87b3a71e",
+   "chunked": true,
+   "files": [
+    {
+     "name": "mm3020_cs040_eng.stringlookup",
+     "orig_md5": "4930d542fac91f7922004c6c9616a0ae",
+     "new_md5": "b3193161e36937072e6ab63c1f8b4ae3",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "896d54e4",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2020.logic_eng.stringlookup",
+     "orig_md5": "ab8c5f525f07dafe9abb07d8f27e15bf",
+     "new_md5": "6e05e7dea534bf3ddf4e827814f8b11c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "899bc5ec",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3020_obj01_eng.stringlookup",
+     "orig_md5": "00f83cc2db54f0c756ee258480e2e761",
+     "new_md5": "e419e6a069df8d69e0825a2f5951af5c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "89af57e9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_gen01_eng.stringlookup",
+     "orig_md5": "2d13590a131e38b820fb5b143f716488",
+     "new_md5": "b06badb7138378d004efe44d9dd65c43",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "89d85d08",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_gen10_eng.stringlookup",
+     "orig_md5": "10b94ab918f24a418c898b1be9b2baa3",
+     "new_md5": "9686902198e088539b066a5656e2d4cd",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "8afce155",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel0074_eng.stringlookup",
+     "orig_md5": "a9f94a63fc7a780e2ca85119863a3d6a",
+     "new_md5": "9f7692e27f372c8bb9ec2f1d877db185",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "8b6bcf44",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3010.logic_eng.stringlookup",
+     "orig_md5": "b5e5c326805161a174595a58b23ed947",
+     "new_md5": "4690aeec5922614c7c84243e3026beea",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "8bad5804",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv1067_eng.stringlookup",
+     "orig_md5": "6cbcb41a1daefb44c0986a71b3bd7771",
+     "new_md5": "e95e8c968436e80a8b3a588150695eeb",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "8ca0f81b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_deathrun_pinkeye01_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "8ca300ad",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash01_02_logic_eng.stringlookup",
+     "orig_md5": "e48288c948f0be410a8832a01252d710",
+     "new_md5": "8799a7122502138b91066fb5671ac1d9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "8ce941d0",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_patch_16-17_28-29_eng.stringlookup",
+     "orig_md5": "62a668a150103a4740ec18bfb8dc84e2",
+     "new_md5": "276e0a4048d379a855d23a92b7bf2899",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "8d2429f6",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_sm_gutgash_01_obj05_eng.stringlookup",
+     "orig_md5": "866d2307697a3f3434df687dec22d329",
+     "new_md5": "f38d40f0b9953fa940463b501f4f6928",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "8dce7f4e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5020_obj01_eng.stringlookup",
+     "orig_md5": "50e0e6c8685bc3bbd5323c429bc749e9",
+     "new_md5": "861f512a163837f210c1bbdebdcb68e7",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "8ddfa4dc",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4020_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "3cdb19fecce9b934edd583a5d52a9ef3",
+     "new_md5": "217edddf4409d1fa4794ad31dc48568d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "8eeeb3d4",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1020_cs020_eng.stringlookup",
+     "orig_md5": "790afa35949ef0d1bda2d1a548b01ddf",
+     "new_md5": "61b0cd3003ecc5ff9db595bbcd835e0b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "8ef4351d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5010_obj02_eng.stringlookup",
+     "orig_md5": "03c011921097eaff95b9adfeaa91dd39",
+     "new_md5": "201afcf78e22590c395e8f81cc1e7880",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "91260c80",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm6010_obj02_eng.stringlookup",
+     "orig_md5": "7ef14ac95da877fc5c98d427e1e7e529",
+     "new_md5": "5bc50edf156bf5090b8a510311120a1f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "92c31e2d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3010_obj03_eng.stringlookup",
+     "orig_md5": "24416929abf07967e66e2b9723ce7850",
+     "new_md5": "f4c2bcbe3567c17920bc587198d9c8f3",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "946349ee",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2030.mission_starter_eng.stringlookup",
+     "orig_md5": "6bc03084bb9cdbecf141e3bdb4c6623b",
+     "new_md5": "24091f5ff818691e5ce613d84760dd62",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "94d096b9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm6010_mission_starter_cs_alt_eng.stringlookup",
+     "orig_md5": "1b1e6f34c30db3c406783fb291c95711",
+     "new_md5": "d34d01231d900d7ff0b6bff9464f4a11",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "95be96bc",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4020_obj03_eng.stringlookup",
+     "orig_md5": "0aecdbe105f3b787d817371c2bd004db",
+     "new_md5": "d125c48baa9cad15f4f2a817d444f41e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "962bdb18",
+   "chunked": false,
+   "files": [
+    {
+     "name": "lto40_eng.stringlookup",
+     "orig_md5": "7f943568cf573e17cda081b4a1f5d211",
+     "new_md5": "2fd9c8dc5e663527b59bcb9c7aaeb057",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "96c67c14",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_deathrun_jeet02_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "973e1d76",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2040_cs010_p2_eng.stringlookup",
+     "orig_md5": "18b98535a606e453cf6d1dddfc5d4ca7",
+     "new_md5": "5fc710a834dd90ac8b3561c02775918a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "97596666",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1012_cs040_eng.stringlookup",
+     "orig_md5": "f361a8784e42410cc720463525df90dd",
+     "new_md5": "0b64e0cf711a4bdd35a91a24017e9c0c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "97b83032",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_outcrier_mission_started_dialogue_eng.stringlookup",
+     "orig_md5": "3e7c1354456ade3a219f3435bde0b7a0",
+     "new_md5": "f0d9ac348de7808140bf2e2f793c90bc",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "989d245f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2040.logic_eng.stringlookup",
+     "orig_md5": "c4e7802ad3745d309ea9a317463cfb77",
+     "new_md5": "8fd78a020e89846ca8875548ea5cde51",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "99b3c9bf",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2030.logic_eng.stringlookup",
+     "orig_md5": "f81ac01526e1babe041eac10b2144adc",
+     "new_md5": "5607bbacc198c1eb79c75953dfa5dc17",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "99cee94c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel5019_eng.stringlookup",
+     "orig_md5": "1eea701fac3923ba3a8ce0be5a4eccca",
+     "new_md5": "136c724f399cf33d9b38b7752e77ec26",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "9afad52d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_generic_03_eng.stringlookup",
+     "orig_md5": "49614cfb4f0defbb9a85d9e5bda5503d",
+     "new_md5": "ea491321872b58e90678ef9e82abc3b6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "9cbd815d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_sd1300_gameplay_eng.stringlookup",
+     "orig_md5": "dad76aaf17adfdccc8fc282d8192ea43",
+     "new_md5": "f0affb1d3ab52492144cc6f5af5766e6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "9cfada67",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3010.free_roam_logic_eng.stringlookup",
+     "orig_md5": "652f9f5b0aa7e944ad04b356b88573ba",
+     "new_md5": "41801270e9b7ed71c0b77d7f3219f520",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "9f41272d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd2030_eng.stringlookup",
+     "orig_md5": "c90d0b2ca4ccd025f04bcba74b49d475",
+     "new_md5": "10737b99be9f1a031fbafd4a4a2ccf31",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game11",
+   "hash": "9f9f0b33",
+   "chunked": true,
+   "files": [
+    {
+     "name": "a01_enc1010_spawn_eng.stringlookup",
+     "orig_md5": "242e10226ed7fb031a20c775f5de4367",
+     "new_md5": "6b894c83ea05c3c98aaefe1322d3d46a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "9fc7d4a8",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3030_cs030.p1_eng.stringlookup",
+     "orig_md5": "2b903b4aed1f730d9f83d1de9f7fa513",
+     "new_md5": "fd142d6be267095817ff43100f2ad3bc",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "a06f2e84",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sto3039_eng.stringlookup",
+     "orig_md5": "0adc8e5a7c941fa5e28d49727f63f7e2",
+     "new_md5": "535f6d2295ce1a4604fe891e196c9889",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "a07e1e3d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2010_cs010_eng.stringlookup",
+     "orig_md5": "304108e529daaa03aaefbf5d06b9bd88",
+     "new_md5": "c3cd11f35b1bada8de8839dcb63ab771",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "a0fc73e5",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4030_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "9e431e4a9b11968b3841af1599e055d9",
+     "new_md5": "152c0da311fa0d7568f002b56dade73c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "a169bff4",
+   "chunked": true,
+   "files": [
+    {
+     "name": "mm2030_cs010_eng.stringlookup",
+     "orig_md5": "8942e1b746fefb3044bf5197fb8fac38",
+     "new_md5": "101075feb7d340cd991f86d2e3930e8b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "a1e4076d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a05_loot_airport_04_logic_eng.stringlookup",
+     "orig_md5": "f9a4a4a8af74758783b9d274f1a35eb3",
+     "new_md5": "ee7c21f36da842720204037d359c9853",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "a23eba85",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3020_obj04_eng.stringlookup",
+     "orig_md5": "01c418c099ee6870013b099c4e857c20",
+     "new_md5": "b0d593b6b7ead53a957aa18671f55bd3",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "a2414728",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_01_mission_starter_eng.stringlookup",
+     "orig_md5": "588a04fce2132d1cf31cebf5465fda59",
+     "new_md5": "912e0f0a3953628b5f307037126d5ba5",
+     "patch_layer": true
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "a25520d1",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4010_mission_starter_cs_alt_eng.stringlookup",
+     "orig_md5": "2c35de3c1538f0a8718fac5dd165320d",
+     "new_md5": "dac743e0a656cf195a5403c85905a3ec",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "a430e89a",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_06_eng.stringlookup",
+     "orig_md5": "889fe677c4bd68ddb51cc4d804ac2503",
+     "new_md5": "70740d306755de2a80913b21b84850d2",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "a49bc6fa",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1020.logic_eng.stringlookup",
+     "orig_md5": "a81cec562cd2f8563e6c50b0fd7f4bdb",
+     "new_md5": "703e2376e4b2f66053e53f72c5141399",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "a4da130a",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel0085_eng.stringlookup",
+     "orig_md5": "3575f24a4047ae7cd638323819a63491",
+     "new_md5": "9f8008b78d00a6d1292e1d825bf4fb7f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "a6c86b94",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv5064_eng.stringlookup",
+     "orig_md5": "8a3adbbe627fd5c7568ff50dd74b697f",
+     "new_md5": "0385a79863311b5472f1956d0160389b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "a72949e8",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel_j_convoy_eng.stringlookup",
+     "orig_md5": "f1a6ddc8c628dc8807b47fe9c2873688",
+     "new_md5": "032ae448d2952492a9097b3dfc3c6087",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "a735daa2",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel0076_eng.stringlookup",
+     "orig_md5": "dd844bbcfbf01cc115a9e3490cf228bb",
+     "new_md5": "d0f1d36a5de59396b6d1f15677356242",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "a736fea7",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_01_blascap_cage_eng.stringlookup",
+     "orig_md5": "0095098ea576f0df5e136911d44b32c1",
+     "new_md5": "338ce972b023cb9c7757e3b2e38ebbb1",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "a7d1ac6b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash02_04_logic_eng.stringlookup",
+     "orig_md5": "d1897365cf897c9c14ac6bf2a93aa2e2",
+     "new_md5": "5f29a7cdd52aadbdc651a180400f6703",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "a871b297",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelwc2040_eng.stringlookup",
+     "orig_md5": "60158dfbf6d6b807103814f73ce9e34f",
+     "new_md5": "34c99a8ce8e8a73a53e14ccb9182a889",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "a875bd36",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd1330_eng.stringlookup",
+     "orig_md5": "ba39beed16e91a460e0a5c6e7fd93044",
+     "new_md5": "70681629cebe50f53d4dd1e0aa51263a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "a90c2f5b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash04_07_eng.stringlookup",
+     "orig_md5": "0452426b209925dec6e18b247e42ca41",
+     "new_md5": "e116ef269ea457c9e40be29f16ee8b61",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "a92ba03c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5020_obj03_eng.stringlookup",
+     "orig_md5": "4454d033c723b89061774a54d7277e6c",
+     "new_md5": "f11026ea6905c1ade9cb4b7129ca233c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "aa26e747",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1021_con030_eng.stringlookup",
+     "orig_md5": "815f1762c3ca25328fde411ee882e03f",
+     "new_md5": "e797613b34ae7b29c12f53168dfd0cfa",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "aa6d59c9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3030.logic_eng.stringlookup",
+     "orig_md5": "bd083696ac1e8fcf5795a8ef0896bd2e",
+     "new_md5": "3cf2c658990cdbfd580762bde582639e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "aaa37d55",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel0088_eng.stringlookup",
+     "orig_md5": "35d3fc333731d92fe65581a16a637c8c",
+     "new_md5": "998a62c679c080e08cea7b3a770cb3ae",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "aae51c4c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3010_cs010_eng.stringlookup",
+     "orig_md5": "9700dc716cbc9eae86f200fd2f99b10d",
+     "new_md5": "e26b8f154babd6928199127d6afc6bf6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "ab2e5de1",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3020.spawn_eng.stringlookup",
+     "orig_md5": "d17bd035ed3b36a2164753d869e91068",
+     "new_md5": "fb8822b69e26b888cf23f0fbce13a28d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "ab342b57",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3020_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "2d737452d0e99c8d15d3ff6200eb24cf",
+     "new_md5": "6b7397f0ab893006d12c072f81cbf325",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "ad348223",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3020_obj03_eng.stringlookup",
+     "orig_md5": "a2ab4cd2a5fd0ef703c722b220317692",
+     "new_md5": "535f44c86f2975028f722dada87b8faa",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "ad4018e2",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_gen06_eng.stringlookup",
+     "orig_md5": "c77120152ba495e028a7f99467ea59d0",
+     "new_md5": "8bdeb063fbccc88d66cdd313475999c0",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "b02c2fcc",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5010_obj06_eng.stringlookup",
+     "orig_md5": "d5652d9390fe994e27c824458239d306",
+     "new_md5": "b417399f11691d1a792995ac21ce801c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "b0540379",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1035_con030_eng.stringlookup",
+     "orig_md5": "77de65f41c29b9c0a1c67ba55e1601a4",
+     "new_md5": "d6566b562279131fbb0c2865671b4b1f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "b0f2d0ee",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1010_cs010_p5_eng.stringlookup",
+     "orig_md5": "473452048b9a0a2345a9ab832bece902",
+     "new_md5": "ab350fb35f20380af91a0776b45bb795",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "b190f822",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_01_obj01_eng.stringlookup",
+     "orig_md5": "3a18071db2035ac1acbc2a2de8016017",
+     "new_md5": "026248bef45f514ccf194245716e1cc5",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "b3fe6c77",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_deepfriah_02_mission_started_dialogue_eng.stringlookup",
+     "orig_md5": "95da928bfae0de7b77a82dfa6f74c3cd",
+     "new_md5": "f7ef2c79c21d47c2e5a794a41b0744b7",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "b4b55354",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel3004_eng.stringlookup",
+     "orig_md5": "2a7c85604ff5d695fd3f1742f12e10d0",
+     "new_md5": "e3b97b3b432e83fb8d2b081f268335a3",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "b52e2b9b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5020_obj02_eng.stringlookup",
+     "orig_md5": "b41b4e0399029e913520663e8bc2d59c",
+     "new_md5": "daf28f09f43379ab99b7799ce1ced608",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "b545457e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_deathrun_gutgash03_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "b62b8896",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_hope_02_mission_started_dialogue_eng.stringlookup",
+     "orig_md5": "301e79fa577e9c4e45c545e13c576978",
+     "new_md5": "05db318f415caba5eccf4cc47dcbe9db",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "b6474b83",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_01_obj_02_eng.stringlookup",
+     "orig_md5": "8df9bed48c8d75dcf4ff48abd14f6a6d",
+     "new_md5": "1dd1b1638e3b867dba2c2c6cc89b47aa",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "b6b6c73c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1035_con010_eng.stringlookup",
+     "orig_md5": "18317574f945331cefc247f8834a3514",
+     "new_md5": "239f876df6eee2dba402d2313d6667bc",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "b6e7e2c3",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3010_obj02_eng.stringlookup",
+     "orig_md5": "df2275277ef453b870b81a0bf38d8a24",
+     "new_md5": "72a2e9f0c47800054bb519cc1198fbaa",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "b77823fc",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1040.logic_eng.stringlookup",
+     "orig_md5": "4fc6a951a6ab155933030e7d0c6ea9ca",
+     "new_md5": "61947185e075e2fd2c2c7d4e02768427",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "b834a021",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash01_04_logic_eng.stringlookup",
+     "orig_md5": "bc969e095b019a77b59f2b3e93eb452f",
+     "new_md5": "42097d922080d9c09e49f9d902550126",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "b9d9c344",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_02_obj02_eng.stringlookup",
+     "orig_md5": "31e6455085b328dac396f99d5fce4cac",
+     "new_md5": "c3b55658912cea7ce7cda6e0ac19448a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "bb0b11cb",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4010_mission_starter_eng.stringlookup",
+     "orig_md5": "29ee331031163271b790db624a1c4382",
+     "new_md5": "d60154fdea90a269ba60555ea77d433e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "bb2f694b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_hope_mission_started_dialogue_01_eng.stringlookup",
+     "orig_md5": "04590566d7a1047fd7780715a808a50f",
+     "new_md5": "48b1a3cb6672cb5c07a2069341009897",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "bbf9fd61",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_chum_01_dog_and_buggy_eng.stringlookup",
+     "orig_md5": "de1b7909260f0cacb1ebbcf324b2e011",
+     "new_md5": "8a897b4579b760cf831379e0aae8e6e9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "bc384c24",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_wc1050_gameplay_eng.stringlookup",
+     "orig_md5": "cd2ff8aec27404a45a256a5aa21a8072",
+     "new_md5": "1a5e5a4114992d6fa91cd9fce4c9254c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "bccd9b5d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3010_obj04_eng.stringlookup",
+     "orig_md5": "8e82e88a5dc78c70002ab3d40741afad",
+     "new_md5": "b22a3ef3c76eab3a82ccc661527a2b3b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "bd470047",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4020_mission_starter_02_eng.stringlookup",
+     "orig_md5": "6eaf4cea5faffabcf270722f665ab261",
+     "new_md5": "e3439126210231d991eccdad796d7ad5",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "be377478",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel1016_eng.stringlookup",
+     "orig_md5": "7ae7573be5babdbda7c1597e9bce7c6c",
+     "new_md5": "f10aa6eaaed9c440c029f5824189fbc1",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game11",
+   "hash": "be48af25",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_enc1020_spawn_eng.stringlookup",
+     "orig_md5": "0edb2b07df78b9076c2cf934e703c81d",
+     "new_md5": "b95b3854b3b510176a26636387b1bc72",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "c0aa768c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_02_mission_started_dialogue_eng.stringlookup",
+     "orig_md5": "f359e500b09ae5951025367e132fbf30",
+     "new_md5": "03547f2ca111f6c890de7e4e2b255c2f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "c0bfda21",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1034.mission_starter_eng.stringlookup",
+     "orig_md5": "67359a53fb4efb2f2af5d1833cba5dcc",
+     "new_md5": "4778eefbd4599dda7aa61551daa268fa",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "c0c50e30",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet02_07_eng.stringlookup",
+     "orig_md5": "5c954727974047299204903e5a5c9713",
+     "new_md5": "d919bf28eeec3ff3c2fc0cd73e05eee1",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "c0d8bf3d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash02_01_eng.stringlookup",
+     "orig_md5": "d1fb1768fba92d55065ee854327c4a5f",
+     "new_md5": "72516241c90dcef74aef4766bf2d8781",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "c12da321",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_02_obj_counter_eng.stringlookup",
+     "orig_md5": "f7599431a68849e123db2b6e0660e845",
+     "new_md5": "e18fcdda387c5153fd4ed1ed8ea4eaa2",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "c1c9ffcc",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_11_eng.stringlookup",
+     "orig_md5": "355675bb5e2cbd44fc46e04cd879c26b",
+     "new_md5": "800d06db4570859f25fca24d1e921cd9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "c25720b3",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_chum00_02_logic_eng.stringlookup",
+     "orig_md5": "bd4a42271ed1c9aceff74d388fb3ce0b",
+     "new_md5": "c2a89bcd81358b87cc4000f49c152fda",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "c3e76e47",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3010_cs060_eng.stringlookup",
+     "orig_md5": "fe84381d85001fee8b109d8c1506d2bb",
+     "new_md5": "c328c897560cecbcc6e86104e555924f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "c404721f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_chum00_03_eng.stringlookup",
+     "orig_md5": "3a8ead14aabbc5bec932f9a7aef43e8f",
+     "new_md5": "d8e13b9a2fa1d68b9cd9f9ade1b64303",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "c6c10b5d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3020.logic_eng.stringlookup",
+     "orig_md5": "76e2a0a31991636b355c618fc441484d",
+     "new_md5": "06f2041cfb445d5896ec8ae13eb46c9c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "c78edd43",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_wc2020_gameplay_eng.stringlookup",
+     "orig_md5": "f8c3f7de912f4b3bc9f7355d33270321",
+     "new_md5": "ebb6069f4f67f8f88a640d5dfbe7888c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "c84a8a49",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_03_eng.stringlookup",
+     "orig_md5": "f91b5bfe0c58d5e96a4ba08f08b42231",
+     "new_md5": "9feeaed2be3f1f0b68893e91f246531e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "c884eb9b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3020_obj05_eng.stringlookup",
+     "orig_md5": "988dfb3ce541c1505dff2c1d229d13c4",
+     "new_md5": "a9b2f8562e23a4c4a24f29a8b4d345e7",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "c955b4c1",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_02_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "5966039e0be14b7a506fc33cb57d57f2",
+     "new_md5": "8320e136367e539b513569ddcf23c762",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "c9814347",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv1053_eng.stringlookup",
+     "orig_md5": "7ceca59fd5a50ba812f91ba71a1629cf",
+     "new_md5": "1eee9c3140a7a8cd3fd11734cedc29aa",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "ca0cca34",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelwc2020_eng.stringlookup",
+     "orig_md5": "7c73b2815bf9f44b8623a8584820f598",
+     "new_md5": "563e2c6b359099345b133cf32ab2f95f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "cab7dd49",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_03_obj01_eng.stringlookup",
+     "orig_md5": "30722a41211845e75584cf53c0ad058d",
+     "new_md5": "0d005db7a830aefa79e66346d4fdd871",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "cae1e66f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2020_con010_eng.stringlookup",
+     "orig_md5": "ae5f03e19a2cfd4a68a646b71271a774",
+     "new_md5": "ac5de60a29592225476ad6c3d5989512",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "cbdbd66e",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_wc2040_spawn_eng.stringlookup",
+     "orig_md5": "c13b9e9801d2ad5adca202624f582358",
+     "new_md5": "31cfa2f7b29dcfddc440e328c8a83b68",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "cd11b051",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel1002_eng.stringlookup",
+     "orig_md5": "17e9043e798eb31b097e73b8f5be0d23",
+     "new_md5": "9b3ca7624ae10267c147bee67f93fb9e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "cd6b7126",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel5018_eng.stringlookup",
+     "orig_md5": "01227bba963d5675832e07cb8ab1f53b",
+     "new_md5": "51adf7b9b103ced6702b7eb86af8a967",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "cdfefe7f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_fe_start_eng.stringlookup",
+     "orig_md5": "ff84dfa49d843bcf6c1b2f158a5f985e",
+     "new_md5": "f14c0aed7b029d35f9448fb4b30e60fc",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "d4570810",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_gen09_eng.stringlookup",
+     "orig_md5": "0c0017e904ce51dddc69a12cbd4960f9",
+     "new_md5": "cb569f62b1c4b1227ec6ca4c3c0f6823",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "d465058f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash03_09_eng.stringlookup",
+     "orig_md5": "7f9f2634de11faaa2b8aa5f620580ed7",
+     "new_md5": "ed5e9a85800e31b476eeea13e0078803",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "d52e3a6b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_jeet02_10_eng.stringlookup",
+     "orig_md5": "28b00b07fc217c7e3922f1800634c52b",
+     "new_md5": "d3056b12de43e649d06515885ba2b533",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "d68ce8fe",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash02_06_logic_eng.stringlookup",
+     "orig_md5": "ff51698d309942304b29faeb5015051d",
+     "new_md5": "cbb56f88ceebcfdfc38022764297c21e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "d6c6fae0",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash03_06_logic_eng.stringlookup",
+     "orig_md5": "7806282abfbd9e7b2263aae98dd1dec9",
+     "new_md5": "4ca7e0c032b23dd0ef7de95294306477",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "d7222b01",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3020_cs020_eng.stringlookup",
+     "orig_md5": "8651b3fe6044d0cfb792baf6bbb73dff",
+     "new_md5": "5ce9cb0bf3105533c5e886ad4ace908c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "d7a48a89",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv2068_eng.stringlookup",
+     "orig_md5": "29e50a92a2578ea3a36ec918d155b23e",
+     "new_md5": "43ec1b90e6d06511c631f2fe8f0c07e4",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "d9447e9b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_02_obj03_eng.stringlookup",
+     "orig_md5": "ffda0869188de1b53f3643eddb48ef2d",
+     "new_md5": "2cf1a1d8ecd0105b5445bf1a49ee9ba4",
+     "patch_layer": true
+    }
+   ]
+  },
+  {
+   "archive": "game3",
+   "hash": "da7821f0",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1021_con010_eng.stringlookup",
+     "orig_md5": "a56c5d2c29daadae1b044bacbe52541e",
+     "new_md5": "90f71eef6e9bf8f2232efa172133e979",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "dcee5693",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1030.cs010.pt01_eng.stringlookup",
+     "orig_md5": "53f70aadf0adef2cdf4c3f164bb2bbcb",
+     "new_md5": "e32bc2221b81d8252e210ca02f606a51",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game5",
+   "hash": "ddee1588",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_wc1020_spawn_eng.stringlookup",
+     "orig_md5": "e0569d78a73cd27986a3f2a436c792ca",
+     "new_md5": "d066ee06200a2a5f433faf3766755467",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "e0a4a098",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4010_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "2c35de3c1538f0a8718fac5dd165320d",
+     "new_md5": "dac743e0a656cf195a5403c85905a3ec",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "e0c26e67",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2030.free_roam_logic_eng.stringlookup",
+     "orig_md5": "57145f976e956ef3aae8a3f0b713888e",
+     "new_md5": "b06fccf741fdc2bdb6e3bd933b923db3",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "e10e110b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv3059_eng.stringlookup",
+     "orig_md5": "b9119c30baff8bf51d4250956815ba2e",
+     "new_md5": "b412f2965eb4b03ad15ca22dc5c925a0",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "e12b1b0f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a05_loot_airport_07_logic_eng.stringlookup",
+     "orig_md5": "3e5ec198337fd02faff66ae73b7c8547",
+     "new_md5": "197fd5a0c7a03253dabe502e1c2a3e7c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "e13e768a",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelwc1020_eng.stringlookup",
+     "orig_md5": "8385f0beb5873611f5ccfc4dc4e9b09a",
+     "new_md5": "89d1798d0dfd4cd77d83b67c82e99ffb",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "e270a6f0",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel_pe_convoy_eng.stringlookup",
+     "orig_md5": "fc353376b626ec01f0f6b88c7c06f6fb",
+     "new_md5": "470c974b1c4d0b9be04d81e1e8504644",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "e27fe001",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4020_mission_starter_cs_alt_eng.stringlookup",
+     "orig_md5": "3cdb19fecce9b934edd583a5d52a9ef3",
+     "new_md5": "217edddf4409d1fa4794ad31dc48568d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "e2b45d76",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv3070_eng.stringlookup",
+     "orig_md5": "e6650aebd4d2c499817aebc82d408a7d",
+     "new_md5": "fdfd342743eb41e9e5b8d5df13a8a376",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "e2c35c86",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd1270_eng.stringlookup",
+     "orig_md5": "84fe7a80c7faf4aa8d9162eafffbece3",
+     "new_md5": "d8b967903fe3a789f5e835ce813e54d7",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "e4080e4b",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_gutgash01_07_eng.stringlookup",
+     "orig_md5": "a97536396a672ffdb5f170eaceaaebb4",
+     "new_md5": "a93c7a88ba9095819f06257fef5a103f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "e51b5910",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_mission_started_dialogue_eng.stringlookup",
+     "orig_md5": "c1bb0556620a42f178399391b2aa8100",
+     "new_md5": "82712a098ecd33f393d46930732a483c",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "e6285dd9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "lto60_eng.stringlookup",
+     "orig_md5": "20f574b6cd3f8e197897111786dd7bf6",
+     "new_md5": "06f046b311363877fd8b2dcff89c20a6",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "e676a8a2",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3010_cs020_eng.stringlookup",
+     "orig_md5": "82001696861a076a0cfe1448a6b947cd",
+     "new_md5": "90cc748dc19e00029c8abc85412fbc1f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "e704d88d",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1039.logic_eng.stringlookup",
+     "orig_md5": "7d62f37562bacaff61c6a66b851a4e12",
+     "new_md5": "974a9e3d3470cfbe0d1c089e50587ab1",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "e7f9b5f1",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1032_cs020_eng.stringlookup",
+     "orig_md5": "c45d6101f59ce531d139a0ba10b419b3",
+     "new_md5": "d9cd2d2cb9cbda5fa1635a8b16a4aabb",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "e93beec6",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_gutgash_02_obj01_eng.stringlookup",
+     "orig_md5": "d9c7e5c32f221e59c52bdb0e24153f4b",
+     "new_md5": "4b35183496ce45ce86abb194b726796d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "e9d3e23f",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm4030_obj03_eng.stringlookup",
+     "orig_md5": "1f4584943ee31ef04929757a60e893de",
+     "new_md5": "667381d9626b32f0ae595e2154cad7d8",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "eb39cab0",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelfd2030_eng.stringlookup",
+     "orig_md5": "d0faa44e4427d23f56288b832e0e9b7a",
+     "new_md5": "2310176255f16bba40dc160fdbdcc742",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "eca095f8",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm_jeet_01_mission_starter_eng.stringlookup",
+     "orig_md5": "1eaa4a855725429b55d173954210cf4e",
+     "new_md5": "ae06e27b043728c0f4a6dabce24a30dd",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "ef4451ec",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelsd1290_eng.stringlookup",
+     "orig_md5": "d19cf03bb0c95e1e7cf12e53093891b6",
+     "new_md5": "68f0e2a5408a1bd0c95e27562386638e",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "f1089b15",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv5062_eng.stringlookup",
+     "orig_md5": "165c430a471141f37e546792bfd5c7c9",
+     "new_md5": "a43eb0f3f18c1318b4b9e9edf615e8f9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "f138f707",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1040_cs010_eng.stringlookup",
+     "orig_md5": "6fd81662fb5f9a0cb9c33686dc99cab1",
+     "new_md5": "f6998a7e2f60145134ddc79fa62cc141",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "f174cdf3",
+   "chunked": false,
+   "files": [
+    {
+     "name": "em1020_cs010_eng.stringlookup",
+     "orig_md5": "5fb10668102162db3e06244738c5baba",
+     "new_md5": "b74c0ef1936b6475ed397cf887f257b9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "f23e4bf6",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_07_eng.stringlookup",
+     "orig_md5": "9e02976bcedd6895a9260fc113cbab1c",
+     "new_md5": "1f3327bd8b9076f9850229da5a77f9e1",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "f3610c71",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2050_cs010_eng.stringlookup",
+     "orig_md5": "0c656d951ad1951414ff7381be277a14",
+     "new_md5": "b1823478a95abc0d329b51286043172d",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "f50732d4",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2012.logic_eng.stringlookup",
+     "orig_md5": "32d11ae33c6f21895fffe041b393b86e",
+     "new_md5": "dd522599cdc58f7754eb967c0441b23f",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game1",
+   "hash": "f5d6d052",
+   "chunked": false,
+   "files": [
+    {
+     "name": "facialanims_eng.stringlookup",
+     "orig_md5": "47b0608fcfec9cda5f72521424687b20",
+     "new_md5": "281b2d51e294ce9cdab51330aa9d8678",
+     "patch_layer": true
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "f64bba94",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm3020_cs010_eng.stringlookup",
+     "orig_md5": "40690a7329a4c3c6820944f8646805cd",
+     "new_md5": "2819bf00e3003cdef3bebdc00095b3da",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "f6e51610",
+   "chunked": false,
+   "files": [
+    {
+     "name": "scv3056_eng.stringlookup",
+     "orig_md5": "2251fdad8c7438fa1cf423542efc6c83",
+     "new_md5": "5129d7825cfbeb8c614d3ded8b7fd659",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "f721c70c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm2050.mission_starter_eng.stringlookup",
+     "orig_md5": "36655b00ab6f24e3fa9342dc282c1745",
+     "new_md5": "c1a1ab84d28f2c9a33add37d0f40d639",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "f76cd2a3",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5020_obj05_eng.stringlookup",
+     "orig_md5": "f7c23940678b4950160f2bee5618c370",
+     "new_md5": "3685ccd71686f6998dd2bd4c15c6b8fc",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "f949ac57",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1036_con020_eng.stringlookup",
+     "orig_md5": "90eadc3631c36b81fa4c30f106c18199",
+     "new_md5": "455c08f537df3cf4a6354bc892f531da",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "f975ac96",
+   "chunked": false,
+   "files": [
+    {
+     "name": "em1010_cs010_eng.stringlookup",
+     "orig_md5": "945c9adc017649303940cc7915cff857",
+     "new_md5": "22e275a5ca28f119ee6149f1c11dffdc",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "f97a48fa",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm3030_obj01_eng.stringlookup",
+     "orig_md5": "e5b9e6b84c56344530108f89880007a0",
+     "new_md5": "3f2ac66cbd0b47dd79b670db9cf1e7a3",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "f9e0f404",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1035_con050_eng.stringlookup",
+     "orig_md5": "241cf8706c52abe07bfab37e9aa1cbb6",
+     "new_md5": "b539adac8ac6d8c33b6fd10948080202",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "f9e41e6c",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1040_cs030_eng.stringlookup",
+     "orig_md5": "67b67071a24b9dec2448cf24903a7a33",
+     "new_md5": "0888067e23e63924bcf28e51f54c92a9",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "fa0b43b0",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_gen03_eng.stringlookup",
+     "orig_md5": "da29b6d2b40bd842908b9cd54129aa92",
+     "new_md5": "f7b125a6048bec7810d862bcaa8bca3b",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "fb2a7459",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1010_cs010_p8_eng.stringlookup",
+     "orig_md5": "b8bda95a8726c7ba602b441a1839078c",
+     "new_md5": "22b30ecf2d65a93041824d0e9d07f772",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game12",
+   "hash": "fbd236f9",
+   "chunked": false,
+   "files": [
+    {
+     "name": "mm1035_con040_eng.stringlookup",
+     "orig_md5": "a12d43995bf583450fa7303821e301aa",
+     "new_md5": "5bbae35816ea356e11b015a0fdc0fc19",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game8",
+   "hash": "fc6fb7f0",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a00_griffa_cs_10_eng.stringlookup",
+     "orig_md5": "e5ecbf304ffef9409b1e08323d0a7cb6",
+     "new_md5": "99fa73ea55531cfda9af37bd3a7141e5",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game2",
+   "hash": "fd485ab5",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a01_loot_chum00_06_logic_eng.stringlookup",
+     "orig_md5": "e2363bf0a785bfce14197055f889f0ba",
+     "new_md5": "c0729f0bf65a4f830b695227daac7923",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "fe383e79",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel5020_eng.stringlookup",
+     "orig_md5": "af40f52cda6880a903d49a9a4a33a7f0",
+     "new_md5": "63b30dce4dce5279f892146908a6cd41",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "fed44d98",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intel0082_eng.stringlookup",
+     "orig_md5": "b0166a13a3aa3833ea14800a2f4d6d31",
+     "new_md5": "3f6be44ac6919f79ee7700da5917ff0a",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game7",
+   "hash": "ff35bc19",
+   "chunked": false,
+   "files": [
+    {
+     "name": "intelfd1110_eng.stringlookup",
+     "orig_md5": "81dd0108c9b0b4110e213e1d252bcc22",
+     "new_md5": "0e331005b60cff602213ec8c31aa6fdb",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game6",
+   "hash": "ffbfe5dd",
+   "chunked": false,
+   "files": [
+    {
+     "name": "a02_deathrun_pinkeye03_01_eng.stringlookup",
+     "orig_md5": "67ce435fc3f3feeb6aede8083026657c",
+     "new_md5": "2fc08da794902be374e9f4f7a04fc4df",
+     "patch_layer": false
+    }
+   ]
+  },
+  {
+   "archive": "game13",
+   "hash": "ffd8bff4",
+   "chunked": false,
+   "files": [
+    {
+     "name": "sm5020_mission_starter_cs_eng.stringlookup",
+     "orig_md5": "2a2bd3e3623b0e86ec7b3da8c3d47572",
+     "new_md5": "54be077e68afec03cd2da4f2ce08863f",
+     "patch_layer": false
+    }
+   ]
+  }
+ ],
+ "font": {
+  "name": "mad_max.font",
+  "hash": "13a635b8",
+  "orig_md5": "9da8c8f8bebc96c519781283b45f5b9b",
+  "new_md5": "b9c06b19620123eab42cf2f8f6bb45a0",
+  "size": 549679,
+  "runs": 779,
+  "bytes": 69213
+ }
+}
