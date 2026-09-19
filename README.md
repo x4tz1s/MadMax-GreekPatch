@@ -20,18 +20,24 @@ files. It verifies every original file first and keeps a backup.*
 
 ## Εγκατάσταση / Install (Windows)
 
-1. Κάνε λήψη και αποσυμπίεσε το zip (όλα τα αρχεία μαζί, μαζί με τον φάκελο `Data`).
-2. Τρέξε το **`Install.bat`** (διπλό κλικ). Βρίσκει μόνο του το Steam· αν όχι, θα σου ζητήσει τον φάκελο,
+Το mod έρχεται σε **δύο μέρη**: τα **δεδομένα μετάφρασης** (φάκελος `Data`, στο Nexus) και το **πρόγραμμα** που τα εφαρμόζει (εδώ, στο GitHub).
+
+1. Κατέβασε το πρόγραμμα από τα [Releases](../../releases) (`MadMaxGreekPatcher_v1.0_Windows.zip`) και αποσυμπίεσέ το σε έναν φάκελο.
+2. Κατέβασε το `Data` από τη σελίδα του mod στο Nexus (`MadMax_Greek_v1.0_Data.zip`) και αποσυμπίεσέ το **στον ίδιο φάκελο**,
+   ώστε δίπλα στο `MadMaxGreekPatcher.exe` να υπάρχει ο φάκελος `Data` (με μέσα `manifest.json`, `translations.json`, `font.diff`).
+   *(Ο φάκελος `Data` υπάρχει και σε αυτό το repo.)*
+3. Τρέξε το **`Install.bat`** (διπλό κλικ). Βρίσκει μόνο του το Steam· αν όχι, θα σου ζητήσει τον φάκελο,
    π.χ. `C:\Program Files (x86)\Steam\steamapps\common\Mad Max`.
-3. Περίμενε ~1–2 λεπτά. Στο τέλος γράφει «Έτοιμο!».
-4. Στο Steam: Mad Max → Ιδιότητες → Γλώσσα → **English**.
+4. Περίμενε ~1–2 λεπτά. Στο τέλος γράφει «Έτοιμο!».
+5. Στο Steam: Mad Max → Ιδιότητες → Γλώσσα → **English**.
 
 **Χώρος στο δίσκο:** ~3 GB ελεύθερα (το `patch_win64\game0.arc` γίνεται ~1,8 GB, + αντίγραφο ασφαλείας ~0,4 GB).
 Το μέγεθος αυτό είναι φυσιολογικό.
 
 ### Linux / Steam Deck (Proton ή native)
 
-Κατέβασε το `…_Linux.tar.gz`, βγάλ' το και τρέξε `./MadMaxGreekPatcher` (ή `--game "/path/to/steamapps/common/Mad Max"`).
+Κατέβασε το `MadMaxGreekPatcher_v1.0_Linux.tar.gz`, βγάλ' το, βάλε δίπλα το φάκελο `Data` και τρέξε `./MadMaxGreekPatcher`
+(ή `--game "/path/to/steamapps/common/Mad Max"`).
 
 ### Επιλογές / Options
 

@@ -51,7 +51,7 @@ public static class Program
     {
         foreach (var d in new[] { Path.Combine(AppContext.BaseDirectory, "Data"), Path.Combine(Directory.GetCurrentDirectory(), "Data"), Path.Combine(AppContext.BaseDirectory, "..", "Data") })
             if (File.Exists(Path.Combine(d, "manifest.json"))) return d;
-        Fail("Δεν βρέθηκε ο φάκελος Data (manifest.json, translations.json, font.diff) δίπλα στο πρόγραμμα. / Data folder not found next to the program.");
+        Fail("Δεν βρέθηκε ο φάκελος Data (manifest.json, translations.json, font.diff) δίπλα στο πρόγραμμα.\nΚατέβασέ τον από τη σελίδα του mod στο Nexus (ή από https://github.com/x4tz1s/MadMax-GreekPatch/tree/main/Data) και αποσυμπίεσέ τον στον ίδιο φάκελο με το πρόγραμμα, ώστε να υπάρχει το Data\\manifest.json.\nData folder not found: download it from the Nexus mod page (or the GitHub repo) and extract it next to this program.");
         return null;
     }
 
