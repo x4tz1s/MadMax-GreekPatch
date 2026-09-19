@@ -21,7 +21,7 @@ files. It verifies every original file first and keeps a backup.*
 ## Εγκατάσταση / Install (Windows)
 
 1. Κάνε λήψη και αποσυμπίεσε το zip (όλα τα αρχεία μαζί, μαζί με τον φάκελο `Data`).
-2. Τρέξε το **`MadMaxGreekPatcher.exe`** (ή `Install.bat`). Βρίσκει μόνο του το Steam· αν όχι, θα σου ζητήσει τον φάκελο,
+2. Τρέξε το **`Install.bat`** (διπλό κλικ). Βρίσκει μόνο του το Steam· αν όχι, θα σου ζητήσει τον φάκελο,
    π.χ. `C:\Program Files (x86)\Steam\steamapps\common\Mad Max`.
 3. Περίμενε ~1–2 λεπτά. Στο τέλος γράφει «Έτοιμο!».
 4. Στο Steam: Mad Max → Ιδιότητες → Γλώσσα → **English**.
@@ -36,12 +36,15 @@ files. It verifies every original file first and keeps a backup.*
 ### Επιλογές / Options
 
 ```
-MadMaxGreekPatcher [--game <φάκελος παιχνιδιού>] [--data <φάκελος Data>] [--restore] [--no-pause]
+Install.bat [--game "<φάκελος παιχνιδιού>"] [--data "<φάκελος Data>"] [--no-pause]     (Windows)
+./MadMaxGreekPatcher [--game <φάκελος>] [--data <φάκελος>] [--restore] [--no-pause]    (Linux)
 ```
+
+Ο φάκελος παιχνιδιού χρειάζεται μόνο αν δεν βρεθεί αυτόματα, π.χ. `Install.bat --game "D:\Games\Mad Max"`.
 
 ## Απεγκατάσταση / Uninstall
 
-`Uninstall.bat` (ή `MadMaxGreekPatcher --restore`) ή, εναλλακτικά, Steam → Ιδιότητες → Τοπικά αρχεία →
+`Uninstall.bat` (Linux: `./MadMaxGreekPatcher --restore`) ή, εναλλακτικά, Steam → Ιδιότητες → Τοπικά αρχεία →
 *Verify integrity of game files*. Σημείωση: το Steam «verify» **αναιρεί** το patch — τρέξε ξανά το εργαλείο μετά.
 
 ## Συμβατότητα / Compatibility

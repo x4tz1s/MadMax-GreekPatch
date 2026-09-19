@@ -233,6 +233,6 @@ public static class Program
         File.WriteAllBytes(tmpTab, tab.Build());
         File.Move(tmpArc, Path.Combine(outDir, "game0.arc"), true); File.Move(tmpTab, Path.Combine(outDir, "game0.tab"), true);
         Log($"✔ Έτοιμο! {n} SARC + {manifest.PatchLayer.Count} αρχεία κειμένου. Ξεκίνα το παιχνίδι με γλώσσα ΑΓΓΛΙΚΑ (English).");
-        Log("Για επαναφορά: MadMaxGreekPatcher --restore  (ή Steam → Verify integrity of game files).");
+        Log("Για επαναφορά: τρέξε το Uninstall.bat (Linux: --restore) ή Steam → Verify integrity of game files.");
     }
 }
