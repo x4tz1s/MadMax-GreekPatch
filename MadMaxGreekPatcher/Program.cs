@@ -32,7 +32,7 @@ public static class Program
         int rc = 0;
         try
         {
-            Log("=== Mad Max — Ελληνικό Patch v1.0 ===");
+            Log("=== Mad Max — Ελληνικό Patch v1.0.1 ===");
             string root = FindGameRoot(game);
             string dataRoot = Directory.Exists(Path.Combine(root, "archives_win64")) ? root : Path.Combine(root, "share", "data");
             string archives = Path.Combine(dataRoot, "archives_win64"), patchDir = Path.Combine(dataRoot, "patch_win64");

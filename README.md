@@ -22,7 +22,7 @@ files. It verifies every original file first and keeps a backup.*
 
 Το mod έρχεται σε **δύο μέρη**: τα **δεδομένα μετάφρασης** (φάκελος `Data`, στο Nexus) και το **πρόγραμμα** που τα εφαρμόζει (εδώ, στο GitHub).
 
-1. Κατέβασε το πρόγραμμα από τα [Releases](../../releases) (`MadMaxGreekPatcher_v1.0_Windows.zip`) και αποσυμπίεσέ το σε έναν φάκελο.
+1. Κατέβασε το πρόγραμμα από τα [Releases](../../releases) (`MadMaxGreekPatcher_v1.0.1_Windows.zip`) και αποσυμπίεσέ το σε έναν φάκελο.
 2. Κατέβασε το `Data` από τη σελίδα του mod στο Nexus (`MadMax_Greek_v1.0_Data.zip`) και αποσυμπίεσέ το **στον ίδιο φάκελο**,
    ώστε δίπλα στο `MadMaxGreekPatcher.exe` να υπάρχει ο φάκελος `Data` (με μέσα `manifest.json`, `translations.json`, `font.diff`).
    *(Ο φάκελος `Data` υπάρχει και σε αυτό το repo.)*
@@ -36,7 +36,7 @@ files. It verifies every original file first and keeps a backup.*
 
 ### Linux / Steam Deck (Proton ή native)
 
-Κατέβασε το `MadMaxGreekPatcher_v1.0_Linux.tar.gz`, βγάλ' το, βάλε δίπλα το φάκελο `Data` και τρέξε `./MadMaxGreekPatcher`
+Κατέβασε το `MadMaxGreekPatcher_v1.0.1_Linux.tar.gz`, βγάλ' το, βάλε δίπλα το φάκελο `Data` και τρέξε `./MadMaxGreekPatcher`
 (ή `--game "/path/to/steamapps/common/Mad Max"`).
 
 ### Επιλογές / Options

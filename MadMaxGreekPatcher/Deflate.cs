@@ -31,32 +31,55 @@ public static class Deflate
             throw new InvalidOperationException("deflate sync flush marker not found");
         ds.Dispose();
 
-        for (int m = 0; m < 12; m++)
+        // Candidate tails, each appended after the byte-aligned sync-flushed data (k = any number of 5-byte empty stored blocks):
+        //   A) m empty fixed blocks + non-final empty stored block, k, final empty stored block   (tail mod 5 in 0,1,2,4)
+        //   B) k, n empty fixed blocks, the last one BFINAL                                        (tail mod 5 in 0,2,3,4)
+        //   C) m empty fixed blocks + FINAL empty stored block, preceded by k                      (tail mod 5 in 0,1,2,4)
+        // Together they reach every tail length >= 2, i.e. any target >= compressed size + 2.
+        for (int variant = 0; variant < 3; variant++)
+            for (int m = variant == 1 ? 1 : 0; m < 12; m++)
+            {
+                byte[] adj = variant == 1 ? FinalFixedGroup(m) : AdjustGroup(m, variant == 2);
+                int fixedTail = variant == 0 ? 5 : 0;
+                int rest = target - s.Length - adj.Length - fixedTail;
+                if (rest < 0 || rest % 5 != 0) continue;
+                var o = new MemoryStream(target);
+                o.Write(s);
+                if (variant == 0) o.Write(adj);
+                for (int k = 0; k < rest / 5; k++) o.Write(new byte[] { 0, 0, 0, 0xFF, 0xFF });
+                if (variant == 0) { o.Write(new byte[] { 1, 0, 0, 0xFF, 0xFF }); } else o.Write(adj);
+                byte[] res = o.ToArray();
+                if (res.Length != target) throw new InvalidOperationException("size mismatch");
+                byte[] back = Inflate(res, data.Length);
+                if (!back.AsSpan().SequenceEqual(data)) throw new InvalidOperationException("round-trip mismatch");
+                return res;
+            }
+        throw new InvalidOperationException(
+            $"could not reach exact size (compressed {s.Length} bytes, target {target}) — compressed data larger than the original slot");
+    }
+
+    // n empty fixed-Huffman blocks (10 bits each: BFINAL, BTYPE=01, EOB=7 zero bits); the last has BFINAL=1. Padded to a byte.
+    static byte[] FinalFixedGroup(int n)
+    {
+        var bits = new List<int>();
+        for (int i = 0; i < n; i++) bits.AddRange(new[] { i == n - 1 ? 1 : 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 });
+        while (bits.Count % 8 != 0) bits.Add(0);
+        var o = new List<byte>();
+        for (int i = 0; i < bits.Count; i += 8)
         {
-            byte[] adj = AdjustGroup(m);
-            int rest = target - s.Length - adj.Length - 5;
-            if (rest < 0) throw new InvalidOperationException($"compressed data ({s.Length + adj.Length + 5}) exceeds target {target}");
-            if (rest % 5 != 0) continue;
-            var o = new MemoryStream(target);
-            o.Write(s); o.Write(adj);
-            for (int k = 0; k < rest / 5; k++) o.Write(new byte[] { 0, 0, 0, 0xFF, 0xFF });
-            o.Write(new byte[] { 1, 0, 0, 0xFF, 0xFF });
-            byte[] res = o.ToArray();
-            if (res.Length != target) throw new InvalidOperationException("size mismatch");
-            byte[] back = Inflate(res, data.Length);
-            if (!back.AsSpan().SequenceEqual(data)) throw new InvalidOperationException("round-trip mismatch");
-            return res;
+            int v = 0; for (int k = 0; k < 8; k++) v |= bits[i + k] << k;
+            o.Add((byte)v);
         }
-        throw new InvalidOperationException("could not reach exact size");
+        return o.ToArray();
     }
 
     // m empty fixed-Huffman blocks (10 bits each: BFINAL=0, BTYPE=01, EOB=7 zero bits) followed by a non-final empty stored
     // block (3 header bits, pad to byte, LEN=0, NLEN=0xFFFF).
-    static byte[] AdjustGroup(int m)
+    static byte[] AdjustGroup(int m, bool isFinal = false)
     {
         var bits = new List<int>();
         for (int i = 0; i < m; i++) { bits.AddRange(new[] { 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 }); }
-        bits.AddRange(new[] { 0, 0, 0 });
+        bits.AddRange(new[] { isFinal ? 1 : 0, 0, 0 });
         while (bits.Count % 8 != 0) bits.Add(0);
         var o = new List<byte>();
         for (int i = 0; i < bits.Count; i += 8)
