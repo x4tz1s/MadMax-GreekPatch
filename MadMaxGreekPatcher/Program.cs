@@ -32,7 +32,7 @@ public static class Program
         int rc = 0;
         try
         {
-            Log("=== Mad Max — Ελληνικό Patch v1.0.1 ===");
+            Log("=== Mad Max — Ελληνικό Patch v1.0.2 ===");
             string root = FindGameRoot(game);
             string dataRoot = Directory.Exists(Path.Combine(root, "archives_win64")) ? root : Path.Combine(root, "share", "data");
             string archives = Path.Combine(dataRoot, "archives_win64"), patchDir = Path.Combine(dataRoot, "patch_win64");
@@ -105,6 +105,30 @@ public static class Program
         byte[] built = sl.Build();
         if (Md5(built) != expectedMd5) Fail($"Το αποτέλεσμα για το '{name}' δεν ταιριάζει με το αναμενόμενο — πιθανώς διαφορετική έκδοση παιχνιδιού.");
         return built;
+    }
+
+    /// <summary>Move <paramref name="tmp"/> over <paramref name="dest"/>. Clears a read-only flag and retries a few times
+    /// (antivirus / Steam briefly holding a file); on failure explains what to check instead of a bare stack trace.</summary>
+    static void ReplaceFile(string tmp, string dest)
+    {
+        Exception last = null!;
+        for (int attempt = 0; attempt < 10; attempt++)
+        {
+            try
+            {
+                if (File.Exists(dest) && (File.GetAttributes(dest) & FileAttributes.ReadOnly) != 0) File.SetAttributes(dest, FileAttributes.Normal);
+                File.Move(tmp, dest, true);
+                return;
+            }
+            catch (Exception e) when (e is UnauthorizedAccessException || e is IOException)
+            {
+                last = e; Thread.Sleep(1500);
+            }
+        }
+        Fail($"Δεν μπόρεσα να αντικαταστήσω το αρχείο:\n    {dest}\n" +
+             "Κλείσε το παιχνίδι, το Steam (πλήρως, και από το tray) και τυχόν antivirus που σαρώνει τον φάκελο, και ξανατρέξε το patch.\n" +
+             "Could not replace the file above. Close the game, Steam (fully, incl. tray) and any antivirus scanning the folder, then run again.\n" +
+             $"({last.GetType().Name}: {last.Message})");
     }
 
     static void Apply(string archives, string patchDir, string backup, string dataDir, string outDir)
@@ -228,10 +252,12 @@ public static class Program
         }
         foreach (var (_, (_, fs)) in btabs) fs.Dispose();
         arc.Flush(); arc.Dispose();
+        // On Windows a file can't be replaced while we hold it open — and when there was no backup yet, `src` IS the live game0.arc.
+        src.Dispose();
 
         string tmpTab = Path.Combine(outDir, "game0.tab.tmp");
         File.WriteAllBytes(tmpTab, tab.Build());
-        File.Move(tmpArc, Path.Combine(outDir, "game0.arc"), true); File.Move(tmpTab, Path.Combine(outDir, "game0.tab"), true);
+        ReplaceFile(tmpArc, Path.Combine(outDir, "game0.arc")); ReplaceFile(tmpTab, Path.Combine(outDir, "game0.tab"));
         Log($"✔ Έτοιμο! {n} SARC + {manifest.PatchLayer.Count} αρχεία κειμένου. Ξεκίνα το παιχνίδι με γλώσσα ΑΓΓΛΙΚΑ (English).");
         Log("Για επαναφορά: τρέξε το Uninstall.bat (Linux: --restore) ή Steam → Verify integrity of game files.");
     }
